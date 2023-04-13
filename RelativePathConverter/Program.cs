@@ -11,8 +11,8 @@ namespace RelativePathConverter
     {
         static void Main(string[] args)
         {
-            string fromPath = @"C:\Users\prashantsingh.vinayk\Source\Repos\OV_CRM\SaLesLink\SalesLink\SalesVisitReportTemplates\SalesVisitReportEmailTemplate.htm";
-            string toPath = @"C:\Users\prashantsingh.vinayk\Source\Repos\OV_CRM\SaLesLink\Msc.OVCRM.Presentation\Images\Action_Add.png";
+            string fromPath = @"";
+            string toPath = @"";
             Console.WriteLine(GetRelativePath(fromPath, toPath));
             Console.ReadKey();
             
